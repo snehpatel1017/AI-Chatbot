@@ -1,0 +1,78 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "Good morning",
+                "I am here",
+                "hi",
+                "hey",
+                "What's up",
+                "How are you doing!",
+                "How is it going?"
+            ],
+            "responses": [
+                "Hello , How can i help you!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "Farewell",
+                "take care",
+                "I am leaving",
+                "good bye",
+                "latteer"
+            ],
+            "responses": [
+                "Bye , Have a nice day!"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "who are you!",
+                "What is your name?",
+                "Indentify your self",
+                "Tell me about yourself."
+            ],
+            "responses": [
+                "I am OpenAI chat , created my Sneh Patel"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you !"
+            ],
+            "responses": [
+                "My owner is 20 years old , so I am 20 year old"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time it is?",
+                "Give me the current time!",
+                "Dive me the today's date!",
+                "What is Current date?"
+            ],
+            "responses": [
+                " The Current time and date is : "
+            ]
+        },
+        {
+            "tag": "work",
+            "patterns": [
+                "What kind of works can you do ?",
+                "What can you do?",
+                "Why are you build for?"
+            ],
+            "responses": [
+                "I am OpenAI chat , created as small deep learning project by Sneh Patel \n I can replied the basic questions like \"What time it is? , Who are you?, What is you age, etc..\" "
+            ]
+        }
+    ]
+}
